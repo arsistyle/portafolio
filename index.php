@@ -167,6 +167,37 @@
 			<div class="row">
 				<div class="content-section col-xs-12 col-md-8 col-md-offset-2">
 					<h3>Mis últimos proyectos</h3>
+
+					<div class="project-front">
+						<div class="project-description">
+							<h4>Título del proyecto</h4>
+							<p></p>
+						</div>
+					</div>
+					<div class="project-front">
+						<div class="project-description">
+							<h4>Título del proyecto</h4>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla, ipsa sunt autem ducimus perferendis, eum impedit ex quo sit voluptatibus sed, modi fuga doloremque sapiente aut, at nobis labore illo.</p>
+						</div>
+					</div>
+					<div class="project-front">
+						<div class="project-description">
+							<h4>Título del proyecto</h4>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea praesentium laboriosam ab similique, eligendi tenetur numquam consectetur, omnis repellat mollitia tempore earum, aspernatur in rerum. Totam aliquam quasi facere alias!</p>
+						</div>
+					</div>
+					<div class="project-front">
+						<div class="project-description">
+							<h4>Título del proyecto</h4>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum illum rerum incidunt vero tempore neque quaerat saepe assumenda beatae nemo, inventore minus, optio maiores nobis, ut eum facere sunt temporibus.</p>
+						</div>
+					</div>
+					<div class="project-front">
+						<div class="project-description">
+							<h4>Título del proyecto</h4>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam quaerat illo a hic eius vero ex minus iusto cupiditate. Dolorum sint minima at ipsum minus iure, et obcaecati veniam eos.</p>
+						</div>
+					</div>
 				</div>
 			</div>
 		</section>
