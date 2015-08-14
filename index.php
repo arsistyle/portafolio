@@ -171,7 +171,7 @@
 					<div class="proyectos-masonry">
 						<a href="#" class="project-front">
 							<div class="project-description">
-								<h4>Título del proyecto</h4>
+								<h4>Título del proyecto  asfasfasfas af af af af saf af af</h4>
 							</div>
 						</a>
 						<a href="#" class="project-front">

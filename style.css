@@ -386,6 +386,7 @@ svg{
 	padding-bottom: 50%;
 	float: left;
 	position: relative;
+	overflow: hidden;
 }
 .proyectos .row .content-section .proyectos-masonry .project-front:nth-of-type(odd){
 	background-color: rgba(0,0,0,0.3);
@@ -404,9 +405,15 @@ svg{
 	width: 100%;
 }
 .proyectos .row .content-section .proyectos-masonry .project-front .project-description{
+	width: 100%;
+	height: auto;
 	position: absolute;
-	bottom: 10px;
-	left: 10px;
+	text-align: left;
+	bottom: 0;
+	left: 0;
+	padding: 10px;
+	background-color: rgba(0,0,0,0.2);
+
 }
 
 
