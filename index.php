@@ -14,55 +14,8 @@
 
 	<!-- jQuery --> 
 	<script src="js/jquery-1.11.3.min.js"></script>
+	<script src="js/javascript.js"></script>
 
-	<script>
-		$(window).scroll(function() {
-		  var scroll = $(window).scrollTop();            
-		  $(".parallax").css("transform","translateY(" +  (scroll)/-10  + "px)");
-		  $(".parallax").css("margin-bottom", ""+ (scroll)/-5 + "px");
-		});
-	</script>
-
-	<script>
-		/*
-
-		Canvas Menú
-
-		*/
-
-		$(function() {
-
-		  var special = ['reveal', 'top', 'boring', 'perspective', 'extra-pop'];
-
-		  // Toggle Nav on Click
-		  $('#menu a').click(function() {
-
-		  	$('.main').toggleClass('main-right');
-		  	$('.menu-icon').toggleClass('icon-top');
-
-		    var transitionClass = $(this).data('transition');
-
-		    if ($.inArray(transitionClass, special) > -1) {
-		      $('body').removeClass();
-		      $('body').addClass(transitionClass);
-		    } else {
-		      $('body').removeClass();
-		      $('#site-canvas').removeClass();
-		      $('#site-canvas').addClass(transitionClass);
-		    }
-
-		    $('#site-wrapper').toggleClass('show-nav');
-
-		    return false;
-
-		  });
-
-		});
-	</script>
-
-	<script>
-		
-	</script>
 
 </head>
 <body>
@@ -107,8 +60,14 @@
 
 	<div class="main">
 
-		<header class="parallax">
+		<nav class="nav-fixed">
+			<h2 class="hidden-scroll">Arsistyle</h2>
 			<div class="logo">O</div>
+			<div class="icon-up hidden-scroll">A</div>
+		</nav>
+
+
+		<header class="parallax">
 			<!-- Mensaje en mobile & tablet version-->
 			<div class="about-front hidden-md hidden-lg">
 			     <div class="about-fron-in">
