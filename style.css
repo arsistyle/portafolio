@@ -48,7 +48,7 @@ $gris01 = #727476;
 $gris02 = #AAB2B7;
 $gris03 = #C5CBCE;
 $blanco = #FFFFFF;
-$rojo = #DB5D5B;
+$rojo = #F94F4C;
 */
 
 
@@ -124,7 +124,8 @@ header, section{display: inline-block !important;}
  }
  a{
  	text-decoration: none;
- 	color: #DB5D5B;
+ 	color: #F94F4C;
+ 	transition:all linear 0.3s;
  }
  .boton{
  	display: inline-block;
@@ -136,6 +137,19 @@ header, section{display: inline-block !important;}
  	border: solid 2px; 
  	border-radius: 2em;
  	margin-bottom: 1.333em;
+ }
+.red-back{
+ 	color: white;
+ }
+ .boton:hover{
+ 	background-color: #F94F4C;
+ 	color: white;
+ 	border-color: #F94F4C;
+ }
+ .red-back:hover{
+ 	background-color: white;
+ 	color: #F94F4C;
+ 	border-color: white;
  }
  .mini-info{
  	font-size: 0.85em;
@@ -153,7 +167,7 @@ header, section{display: inline-block !important;}
 */
 .main .nav-fixed{
 	width: 100%;
-	height: 50px;
+	height: 40px;
 	background-color: transparent;
 	position: fixed;
 	top: 0;
@@ -165,6 +179,7 @@ header, section{display: inline-block !important;}
 	color: white;
 	padding-top: 10px;
 	position: relative;
+	font-size: 1.200em;
 }
 .main .nav-fixed .logo, .main .nav-fixed .icon-up{
 	position: absolute;
@@ -172,10 +187,10 @@ header, section{display: inline-block !important;}
 
 }
 .main .nav-fixed .logo{
-	top: 20px;
+	top: 10px;
 }
 .main .nav-fixed .icon-up{
-	padding-top: 20px;
+	padding-top: 10px;
 }
 .nav-scroll{
 	background: #C5CBCE url(img/header-front.jpg) fixed center center;
@@ -232,7 +247,7 @@ header .about-front .about-fron-in h2{
 	color: white;
 }
 header .about-front .about-fron-in h1{
-	color: #DB5D5B;
+	color: #F94F4C;
 }
 .head-content{
 	position: absolute !important;
@@ -252,8 +267,7 @@ header .icon-down{
 
 .menu-icon{
 	position: relative;
-	top: 10px;
-	left: 15px;
+	left: 10px;
 	font-size: 2em;
 	-webkit-transition: all 300ms cubic-bezier(.694, .0482, .335, 1); transition: all 300ms cubic-bezier(.694, .0482, .335, 1);
 }
@@ -301,7 +315,7 @@ header .icon-down{
 	position: absolute;
 	top: 0;
 	left: -255px;
-	background:url(img/li-back.jpg) left top;
+	background:url(img/menu-back.jpg) left top;
 	background-size: auto 100%;
 	-webkit-box-shadow: 5px 0px 5px 0px rgba(0, 0, 0, 0.2);
 	-moz-box-shadow:    5px 0px 5px 0px rgba(0, 0, 0, 0.2);
@@ -316,7 +330,7 @@ header .icon-down{
 }
 .menu_principal .mini-perfil .name-job .name{
 	font-size: 1.25em;
-	color:#DB5D5B;
+	color:#F94F4C;
 	font-weight: 700;
 	text-transform: uppercase;
 }
@@ -335,7 +349,7 @@ header .icon-down{
 }
 .menu_principal ul{
 	padding: 0;
-	background:url(img/li-back.jpg) left top;
+	background:url(img/menu-back.jpg) left top;
 	background-size: auto 220%;
 	background-position-y: -140px;
 }
@@ -349,6 +363,11 @@ header .icon-down{
 	padding: 15px 15px;
 	background: rgba(255,255,255,0.2);
 	opacity: 0.4;
+	text-transform: uppercase;
+}
+.menu_principal ul li a span{
+	font-size: 0.8em;
+	text-transform: none;
 }
 .menu_principal ul li .current_page, .menu_principal ul li a:hover{
 	background: rgba(255,255,255,0);
@@ -406,7 +425,7 @@ svg{
 	text-align: center;
 }
 .soy .row .content-section h3{
-	color: #DB5D5B;
+	color: #F94F4C;
 }
 .soy .row .content-section p{
 	margin-bottom: 30px;
@@ -432,6 +451,8 @@ svg{
 .proyectos .row .content-section .proyectos-masonry{
 	width: 100%;
 	margin-top: 70px;
+	margin-bottom: 50px;
+	overflow: hidden;
 }
 .proyectos .row .content-section .proyectos-masonry .project-front{
 	display: block;

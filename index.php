@@ -108,7 +108,7 @@
 				<div class="content-section hidden-xs hidden-sm col-xs-12 col-md-8 col-md-offset-2">
 					<h3>Habilidades</h3>
 					<p>Me llamo Israel Larrondo, pero me conocen como Arsi o Arsistyle en el rubro del Diseño. Soy diseñador gráfico y web, pero me estoy enfocando más en el área del front-end.</p>
-					<a href="#" class="boton">Conóceme</a>
+					<a href="#" class="boton red-back">Conóceme</a>
 					<div class="mini-info">Conoce mi perfil completo</div>
 				</div>
 			</div>
@@ -154,6 +154,9 @@
 							</div>
 						</a>
 					</div>
+
+					<a href="#" class="boton red-back">Conóceme</a>
+					<div class="mini-info">Conoce todos mis proyectos</div>
 				</div>
 			</div>
 		</section>
