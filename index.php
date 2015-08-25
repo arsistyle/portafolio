@@ -68,7 +68,7 @@
 			<div class="about-front hidden-md hidden-lg">
 			     <div class="about-fron-in">
 			       <div>
-			         <h2>LLáMAME </h2>
+			         <h2>LLáMAME</h2>
 			         <h1>¡Arsistyle!</h1>
 			       </div>
 			     </div>

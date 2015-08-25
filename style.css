@@ -30,6 +30,7 @@ Text Domain: ingresar texto del dominio;
 	4.3 ** Menú off-canvas /
 	4.4 ** Separador de secciones /
 	4.5 ** Proyectos /
+5 * MediaQueries //
 
 
 
@@ -495,44 +496,20 @@ svg{
 
 
 
+/*-----------------------------
+5 * MediaQueries //
+-----------------------------*/
 
+@media (min-width: 320px){
 
+}
+@media (min-width: 768px){
 
+}
+@media (min-width: 992px){
 
+}
+@media (min-width: 1200px){
 
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*
-
-4.3 ** Llamado del sitio /
-
-*/
-
-
-
-
- .uno{
- 	background-color:#FFFFFF;
- }
- .dos{
- 	
- }
