@@ -57,7 +57,7 @@ $rojo = #F94F4C;
 -----------------------------*/
 header, section{display: inline-block !important;}
  body{margin-left:0 important!;}
- .uk-navbar-toggle{position: fixed !important; top: 0 !important; z-index: 999; color:white !important;}
+ .uk-navbar-toggle{position: fixed !important; top: 0 !important; z-index: 999; color:#FFFFFF !important;}
 
 
 /*-----------------------------
@@ -139,17 +139,17 @@ header, section{display: inline-block !important;}
  	margin-bottom: 1.333em;
  }
 .red-back{
- 	color: white;
+ 	color: #FFFFFF;
  }
  .boton:hover{
  	background-color: #F94F4C;
- 	color: white;
+ 	color: #FFFFFF;
  	border-color: #F94F4C;
  }
  .red-back:hover{
- 	background-color: white;
+ 	background-color: #FFFFFF;
  	color: #F94F4C;
- 	border-color: white;
+ 	border-color: #FFFFFF;
  }
  .mini-info{
  	font-size: 0.85em;
@@ -176,7 +176,7 @@ header, section{display: inline-block !important;}
 	overflow: hidden;
 }
 .main .nav-fixed h2{
-	color: white;
+	color: #FFFFFF;
 	padding-top: 10px;
 	position: relative;
 	font-size: 1.200em;
@@ -244,7 +244,7 @@ header .about-front .about-fron-in{
 	vertical-align: middle;
 }
 header .about-front .about-fron-in h2{
-	color: white;
+	color: #FFFFFF;
 }
 header .about-front .about-fron-in h1{
 	color: #F94F4C;
@@ -257,6 +257,9 @@ header .icon-down{
 	width: 100%;
 	text-align: center;
 	margin-top: -70px;
+}
+header .icon-down a{
+	color: #FFFFFF;
 }
 
 /*
@@ -357,7 +360,7 @@ header .icon-down{
 	list-style-type: none;
 }
 .menu_principal ul li a{
-	color: white;
+	color: #FFFFFF;
 	display: block;
 	width: 100;
 	padding: 15px 15px;
@@ -406,7 +409,7 @@ svg{
 }
 .separador-parent .separador{
 	width: 100%;
-	fill:white;
+	fill:#FFFFFF;
 }
 .separador-top{
 	top: -45px;
@@ -420,7 +423,7 @@ svg{
 4.4 ** ¿Quien soy? /
 
 */
-.soy{background-color: white;}
+.soy{background-color: #FFFFFF;}
 .soy .row .content-section{
 	text-align: center;
 }
@@ -446,7 +449,7 @@ svg{
 	padding:0;
 }
 .proyectos .row .content-section h3{
-	color: white;
+	color: #FFFFFF;
 }
 .proyectos .row .content-section .proyectos-masonry{
 	width: 100%;
@@ -528,7 +531,7 @@ svg{
 
 
  .uno{
- 	background-color:white;
+ 	background-color:#FFFFFF;
  }
  .dos{
  	

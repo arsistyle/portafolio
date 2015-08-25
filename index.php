@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Arsistyle | Portafolio</title>
-	<meta description="Portafolio de proyectos y algo más de Israel Larrondo, alisas Arsistyle">
+	<meta description="Portafolio de proyectos y algo más de Israel Larrondo, alias Arsistyle">
 
 
 	<!--  Links de los CSSs -->
@@ -15,20 +15,17 @@
 	<!-- jQuery --> 
 	<script src="js/jquery-1.11.3.min.js"></script>
 	<script src="js/javascript.js"></script>
+	<script src="js/prefixfree.min.js"></script>
 
 
 </head>
 <body>
 	
 	<div id="site-wrapper">
-
 		<div id="site-canvas">
-
 			<div id="site-menu">
-
 				<div class="menu_principal">
 					<div>
-
 					<div class="mini-perfil">
 						<img src="img/me.jpg" alt="yo">
 						<div class="name-job">
@@ -49,7 +46,6 @@
 						</ul>
 					</div>
 				</div>
-
 			</div>
 
 			<div id="menu" class="menu-icon">
@@ -164,8 +160,6 @@
 
 
 	<footer>
-		
-		<!-- Scrips del sitio -->
 
 	</footer>
 
